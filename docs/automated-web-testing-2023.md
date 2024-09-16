@@ -33,11 +33,11 @@ What technical solution for end-2-end (e2e) testing on web applications to start
 
 ## Decision outcome
 
-* **Cypress** is an proven solution but there is a risk the company change its open source strategy over time (and restrict for example the featureset or license model)
-* **Jest** is very interesting for unit/integration testing, maybe not well suited for e2e testing.
-* **Playwright** has a very good documentation and featureset, not linked to a company ← _we have our winner!_
-* **Selenium** has no strong drivers in Go (as of today)
-* **Taiko** doesn't have the same audience as the other massively used tools
+* 🟡 **Cypress** is an proven solution but there is a risk the company change its open source strategy over time (and restrict for example the featureset or license model)
+* 🟠 **Jest** is very interesting for unit/integration testing, maybe not well suited for e2e testing.
+* 🟢 **Playwright** has a very good documentation and featureset, not linked to a company ← _we have our winner!_
+* 🟠 **Selenium** has no strong drivers in Go (as of today) and doesn't have the modern features the recent technologies have
+* 🔴 **Taiko** doesn't have the same audience as the other massively used tools
 
 ## Implementation examples
 
