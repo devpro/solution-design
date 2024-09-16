@@ -12,12 +12,14 @@ As a technical writer, I want to be able to execute the code blocks included in 
 
 ## Considered options
 
-Name                             | Sources                                                    | IDE
----------------------------------|------------------------------------------------------------|-------------------
-[Runme](https://docs.runme.dev/) | [:octocat:](https://github.com/coder/code-server) _★ 1.1k_ | Visual Studio Code
+Name                                                                                         | Sources                                                                    | IDE
+---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|-------------------
+[Runme](https://docs.runme.dev/)                                                             | [:octocat:](https://github.com/coder/code-server) _★ 1.1k_                 | Visual Studio Code
+[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | [:octocat:](https://github.com/formulahendry/vscode-code-runner)  _★ 2.2k_ | Visual Studio Code
 
 ## Decision outcome
 
 ⛵ Experimentation in progress!
 
-* 🟢 **Runme** looks really cool and bring the concept of Notebook
+* 🟢 **Runme** looks really cool and brings the concept of Notebook, to be tested ASAP!
+* 🔴 **Code Runner**  is only for code in a sandbox, not on an actual terminal
