@@ -1,8 +1,8 @@
-# Solution initialization ADR - February, 2023
+# Automated web testing ADR - February, 2023
 
-## Context and Problem Statement
+## Context and problem statement
 
-What technical solution for end-2-end (e2e) testing to start with and which technical stack?
+What technical solution for end-2-end (e2e) testing on web applications to start with?
 
 ## Requirements
 
@@ -11,7 +11,7 @@ What technical solution for end-2-end (e2e) testing to start with and which tech
 * Language must be part of: .NET, Go, TypeScript
 * (Optional) Pipelines for code lifecycle & test execution are easy to make
 
-## Considered Options
+## Considered options
 
 * **Tools**
   * [Cucumber](https://cucumber.io/) ([GitHub org](https://github.com/cucumber))
@@ -31,10 +31,14 @@ What technical solution for end-2-end (e2e) testing to start with and which tech
   * BDD (Behavior-Driven Development)
     * Gherkin language
 
-## Decision Outcome
+## Decision outcome
 
 * **Cypress** is an proven solution but there is a risk the company change its open source strategy over time (and restrict for example the featureset or license model)
 * **Jest** is very interesting for unit/integration testing, maybe not well suited for e2e testing.
 * **Playwright** has a very good documentation and featureset, not linked to a company ← _we have our winner!_
 * **Selenium** has no strong drivers in Go (as of today)
 * **Taiko** doesn't have the same audience as the other massively used tools
+
+## Implementation examples
+
+* [hobbyfarm/e2e-testing](https://github.com/hobbyfarm/e2e-testing)
