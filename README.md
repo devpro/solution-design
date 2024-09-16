@@ -1,5 +1,7 @@
 # Architecture Decision Records (ADR)
 
+[![CI](https://github.com/devpro/adr/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/devpro/adr/actions/workflows/ci.yml)
+
 The ADR come from current and completed IT (Information Technology) studies.
 
 ## About
