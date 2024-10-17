@@ -21,5 +21,5 @@ Name                                                                            
 
 ⛵ Experimentation in progress!
 
-* 🟢 **Runme** looks really cool and brings the concept of Notebook, to be tested ASAP!
+* 🟠 **Runme** looks cool and brings the concept of Notebook, but is limited and has some bugs
 * 🔴 **Code Runner**  is only for code in a sandbox, not on an actual terminal

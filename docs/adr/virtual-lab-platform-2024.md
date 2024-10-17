@@ -28,6 +28,6 @@ Name                                       | Sources                            
 
 * 🟠 **HobbyFarm** is the only open-source solution but the attempt to install it failed and small project with unclear governance, poor documentation & unsure about code quality
 * 🟢 **Instruqt** works well, is used by most IT companies (_de facto_ industry standard), follows IT standard, fair pricing but no free tier nor self-hosted option
-* 🟠 **iximiuz Labs** is a great initiative of knowledge sharing, very nice UI but the templates are not working (cannot create content)
+* 🟡 **iximiuz Labs** is a great initiative of knowledge sharing, very nice UI but the templates are not working (cannot create content)
 * 🟡 **Killercoda** is used by the community (Kubernetes project) but is only for public content
 * 🔴 **KodeKloud** is an excellent e-learning platform but not opened for contribution
